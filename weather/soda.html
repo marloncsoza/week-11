@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda Springs </title>
+    <meta name="description" content="WDD-230, Weather site for Soda Springs page, by Marlon C Soza| 2021">
+    <link href="preston.css" rel="stylesheet" />    
+    <script defer src="preston.js"></script>
+
+</head>
+<body>
+    <header>    
+        <img src="https://th.bing.com/th/id/OIP.bcYQsE8zvSknDv9inAf2YQHaEO?pid=ImgDet&rs=1" alt="the logo of the page">
+        <section>
+            <h1>Weather Guy 😃</h1>
+            <p class="motto"> Get your umbrella ready for that rainy day</p>
+        </section>
+    </header>
+    <nav>
+        <ul class="nonResponsive">
+              <li><a class="menu" href="#" onclick="openClose()"><span class="open">&#9776;</span></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html" >Preston</a></li>
+            <li><a href="Soda.html" class="active">Soda Springs</a></li>
+            <li><a href="fish.html" >Fish Haven</a></li>
+            <li><a href="storm.html" >Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+      <body>
+
+
+    </div>
+
+  
+      
+      
+        <h2>Soda Springs</h2>
+       <p>
+          <h3>
+           weather summary 
+      </h3>
+          </p>
+        
+        <div class="ws-containner">
+            
+            <picture>
+                <source media="(max-width: 34.99em)" srcset="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Fpreston545x264_small.jpg?v=1634983442130">
+                <source media="(max-width: 55.99em)" srcset="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Fpreston667x250_medium.jpg?v=1634982502173">
+                <source media="(min-width: 56em)" srcset="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Fpreston960x300_large.jpg?v=1634983442342">
+                <img src="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Fpreston545x264_small.jpg?v=1634983442130" alt="Preston Hero Image">
+            </picture>
+            <div class="wsummary">
+                <section>
+                    <h4>Weather Summary</h4>
+                
+                    <p>Current: <span>Sunny</span></p>
+                    <p>High: <span><span id="tem">27</span>&deg; C</span></p>
+                    <p>wind chill: <span id="wc">16</span></p>
+                    <p>Humidity: <span>50 %</span></p>
+                    <p>Wind speed: <span><span id="ws">12.6</span> km/ph.</span></p>
+                  
+                      </section>
+            </div>
+        </div>
+       <h2>
+        5 Day forecast
+      </h2>
+        <h3 class="h3"5 Day forecast</h3>
+        <div class="forecast">
+            
+            <section>
+                <h5 id="h51">Sunday</h5>
+                <img src="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Frainny.png?v=1634982501945" alt="forecast image">
+                <p>76&deg; C</p>
+                <p>Humidity: 76%</p>
+            </section>
+            <section>
+                <h5 id="h52">Monday </h5>
+                <img src="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Fcloudy.png?v=1634982501944" alt="forecast image">
+                <p>37&deg; C</p>
+                <p>Humidity: 54%</p>
+            </section>
+            <section>
+                <h5 id="h53">Tuesday  </h5>
+                <img src="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Fsunny.png?v=1634982501945" alt="forecast image">
+                <p>76&deg; C</p>
+                <p>Humidity: 53%</p>
+            </section>
+            <section>
+                <h5 id="h54">Wednesday</h5>
+                <img src="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Fsunny.png?v=1634982501945" alt="forecast image">
+                <p>55&deg; C</p>
+                <p>Humidity: 37%</p>
+            </section>
+            <section>
+                <h5 id="h55">Thursday</h5>
+                <img src="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Fcloudy.png?v=1634982501944" alt="forecast image">
+                <p>51&deg; C</p>
+                <p>Humidity: 62%</p>
+            </section>
+        </div>
+
+
+       
+        <div class="content-box">Article
+        
+         <div class="article">
+            <section>
+                <img src="https://th.bing.com/th/id/R.4a017113df760554ee8a044b32169af2?rik=5XOKtLG1PzM93A&riu=http%3a%2f%2fblogpreston.co.uk%2fwp-content%2fuploads%2f2012%2f05%2fpreston-city-centre-view.jpg%3fx39698&ehk=Mp2%2br3hDsh0E0VJTOLZzSQIErTBf7sAqqRA8Hki6zZE%3d&risl=&pid=ImgRaw&r=0" alt="preston article image">
+                <h4>A HISTORY OF PRESTON</h4>
+                <p class="author-article">By Tim Lambert</p><br/>
+                <p>Preston began as a village. It was called Priest’s tun, which means a priest’s farm or estate. In the 12th century, it grew into a town. 
+                  This was partly because of its position. Firstly Preston is on a river. In those days it was much cheaper to transport goods by water than by 
+                  land so goods could be easily transported to and from Preston. Preston was also the first place inland where the river could be bridged so a great 
+                  deal of traffic passed through the area.<br>Preston was also on the main road from northern to southern England. Many people passed through the town and spend money there. In 1179 Preston was given a charter. 
+                  (A charter was a document giving the townspeople certain rights).<br>Medieval Preston may have had about 1,500 inhabitants and about half a dozen streets. It would seem very small to us but towns were very
+                  small in those days. By the standards of the time, Preston was a fair-sized market town. Though Preston was too small to have stone walls it did have stone gates, where tolls could be charged on goods 
+                  entering the town. By the 12th century, Preston had a weekly market. From the 13th century, it also had a fair. In the Middle, Ages fairs were like markets but they were held only once a year for a 
+                  period of several days. People would come from all over Lancashire to buy and sell at a Preston fair. <br>In the Middle Ages, there was a leper hospital just outside Preston. It was dedicated to
+                  St Mary Magdalene. About 1260 the Franciscan friars arrived in Preston. The friars were like monks but instead of withdrawing from the world they went out to preach and to help the poor and the sick.
+            
+                  Franciscan friars were called grey friars because of their grey habits. Furthermore, by the 14th century, there was a grammar school in Preston.
+              <br></p>
+                
+                  <a href= https://localhistories.org/a-history-of-preston>link to full article</a>
+          
+           </section>
+        </div></div>
+        <div class="content-box">The contact information</div>
+    </main>
+  
+
+ 
+ <footer>
+        <div class="contact-background">
+            <div class="contact">
+                <section class="contact-information">
+                    <p class="contact-tilte">Contact information</p>
+                    <p>&#10082; State of Idaho, US</p>
+                    <p>&#x260E; 909 909 009</p>
+                    <p>&#x2709; wheaterGuy@gmail.com</p>
+                    <a href="https://www.facebook.com/"><img src="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Ffcbk.jpg?v=1638016395731" height="38" width="38" alt="social media icon"></a>
+                    <a href="https://twitter.com/"><img src="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Ftwitter.jpg?v=1638016395986" height="58" width="38" alt="social media icon"></a>
+                    <a href="https://www.pinterest.com/"><img src="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Fpintrest.jpg?v=1638016395731" height="38" width="38" alt="social media icon"></a>
+                    <a href="https://www.whatsapp.com/"><img src="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2Fwhatsapp.jpg?v=1638016395731" height="38" width="38" alt="social media icon"></a>
+                </section>
+                <img class="map" src="https://cdn.glitch.me/26350599-c834-402e-93cc-4954ba287c79%2FR.png?v=1638018468503" alt="location map">
+            </div>
+        </div>
+        <p>&copy; <span id="year"></span> The Weather Guy| Soda Springs | Marlon Soza </p>
+        <p id="currentDate" "currentTime"></p><br/>
+    </footer>
+  
+</body>
+</html>
+

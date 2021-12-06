@@ -1,0 +1,543 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald:wght@300&family=Roboto:wght@100&display=swap');
+
+
+@media only screen and (min-width: 54em) {
+	main {
+		padding-left: 15px;
+		padding-right: 15px;
+		max-width: 90%;
+		margin: 0 auto;
+	}
+@media only screen and (min-width: 56em) {
+	nav ul {
+		max-width: 960px;
+        
+	}
+	nav ul li a {
+        font-size: 1rem;
+        
+    }
+
+    main{
+        
+        max-width: 960px;
+        
+    }
+    h2{
+        text-align: center;
+        font-size: 1.75rem;
+    }
+    .wsummary section h4{
+        font-size: 1.4rem;
+        margin: 0;
+        padding-bottom: 0.5rem; 
+        
+    }
+    .wsummary section p{
+        font-size: 1.1rem;
+        margin: 0;
+    } 
+    .wsummary section{
+        
+        line-height: 100%;
+    
+    }
+    .wsummary{
+        
+        top: 25px;
+        left: 25px;      
+        
+    }
+ 
+    .article section p{
+        
+        font-size: 1.1rem;
+        
+    }
+
+
+
+    .contact{
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 20px 20px;
+        display: grid;
+        grid-template-columns: 65% 35%;
+        text-align: left;
+    }
+    .map{
+        
+        padding: 12px 0px 12px 30px;
+        max-width: 350px;
+        
+    }
+    .contact-information{
+        padding: 10px 0px;
+        grid-row: 1/2;
+        grid-column: 2 / 3;
+     }
+     .contact-information p:first-child{
+        font-size: 1.2rem;
+        
+     }
+     .contact-information p{
+        font-size: .9rem;
+     }
+     .sat-banner p{
+        font-size: 1.05rem; 
+    }       
+}
+
+/*===================================*/
+nav ul {
+		display: flex;
+        max-width: 37em;
+        margin: 0 auto;
+	}
+	nav ul li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	nav ul li:first-child {
+		display: none;
+	}
+    nav ul li a {
+        font-size: .8rem;
+        
+    }
+	
+    main{
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 37em;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 1.9rem;
+    }
+    h2{
+        
+        font-size: 1.6rem;
+    }
+    header img{
+        width: 120px;
+    }
+    .h3{
+        display: block;
+        text-align: center;
+        margin: 15px 10px 5px 10px;
+    }
+
+   
+
+    .wsummary{
+        position: absolute;
+        margin: 0px;
+        top: 70px;
+        left: 20px;      
+        background-color: rgba(145, 150, 91, 85%);
+        box-shadow: 0px 0px 5px 2px #444;
+    }
+
+    .wsummary section h4{
+        margin: 0;
+        padding-bottom: 0.5rem; 
+        color: #000;
+    }
+    .wsummary section p{
+        font-size: 0.9rem;
+        margin: 0;
+    }    
+    .wsummary section p span{
+        color: #000;    
+    }
+    
+
+
+
+
+
+    .forecast{
+        display: flex;
+        max-width: 150%;
+        margin: 0 auto;
+        
+    }
+    .forecast section{
+        text-align: center;
+        border: 1px solid #52b69a;
+        flex: 1 1 auto;
+        margin: 0 5px;
+    }
+    .forecast section h5{
+        margin: 0;
+        padding: 10px;
+        background-color: #52b69a;
+    }
+    .forecast section img{
+        margin: 0;
+        padding: 5px;
+        width: 60%;
+        
+    }
+    .forecast section p{
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 0 3px;  
+    }
+    .forecast section p:last-child{
+        margin-bottom: 10px;
+    }
+    
+    
+
+   
+
+    .article section img{
+        float: right;
+        max-width: 55%;
+        margin-top: 5px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .article section h4{
+        font-size: 1.3rem;
+        margin: 0px 0px 10px 0px;
+    }
+    
+    .article section p{
+        
+        font-size: 1.05rem;
+        
+    }
+    
+    .contact{
+        max-width: 40em;
+        margin: 0 auto;
+        padding: 20px 20px;
+        display: grid;
+        grid-template-columns: 65% 35%;
+        text-align: left;
+    }
+    
+
+/*==================*/
+
+img {
+    max-width: 100%;
+}   
+
+.sb-container{
+    display: none;
+    background-color: #9bf6ff;
+}
+.sat-banner{
+    margin: 0 auto;
+    padding: 10px 10px;
+    text-align: center;
+}
+.sat-banner p{
+    margin: 0;
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+
+  
+.ws-containner{
+    
+    position: relative;
+    margin: 0;
+    
+}
+
+.wsummary{
+    text-align: center;
+    margin: 12px 18px -20px 30px;
+    padding: 0;
+    background-color: #52b69a;
+}
+.wsummary section{
+    padding: 1rem;
+    color: white;
+    line-height: 100%;
+
+}
+.wsummary section h4{
+    margin: 2;
+    padding-bottom: 0.8rem; 
+    color: #444;
+}
+.wsummary section p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+.wsummary section p span{
+    color: #444;   
+}
+
+
+
+.article{
+    margin: 20px 0px;
+    
+}
+.article section{
+    padding: 30px;
+    text-align: center;
+    
+}
+.article section img{
+    margin: 0 auto;
+    box-shadow: 0px 0px 3px 1px #444;
+}
+.article section h4{
+    text-align: left;
+    margin: 10px 0px;
+}
+.article section p{
+    text-align: left;
+    font-size: 1rem;
+    margin: 5px 0px;
+}
+.author-article{
+    font-size: 1rem;
+    font-style: italic;    
+}
+
+
+
+/*===================*/
+
+img {
+    max-width: 100%;
+}   
+body {
+  margin: 0 auto;
+  background-color:#edffec;
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  color: #444;  
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Noto Serif", Helvetica, Arial, sans-serif;
+  }
+/*header*/
+header{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #283d3b;
+    font-family: "Noto Serif", Helvetica, Arial, sans-serif;
+    align-items:center;
+	 justify-content:center;
+    display: flex;
+}
+header img{
+    padding: 10px 10px;
+    width: 80px;
+    
+}
+h1{
+    font-size: 1.7rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+header section{
+    text-align: center;
+    color: #edffec;
+    display: flex;
+	  flex-direction: column;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+.motto{
+    font-style: italic;
+  	letter-spacing: 1pt;
+  	font-size: .9rem;
+    margin-top: -15px;
+    text-decoration: underline #2081a4;
+}
+
+nav {
+	background-color: #2081a4;
+	text-align: center;
+	
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+nav ul li:first-child {
+    display: block;
+}
+nav ul li{
+    display: none;
+}
+nav ul li a {
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.05rem;
+	
+}
+nav ul li a:hover {
+    background-color: #2b9348;
+	
+	
+}
+.active {
+	pointer-events: none;
+    background-color: #272343;
+    
+}
+
+
+.responsive li {
+	display: block;
+}
+.menu{
+    color: #f58634;
+    background-color: #2b9348;
+}    
+.menu:hover{
+    color:white;
+    background-color: #2b9348;
+}
+.open::after{
+    content: " Menu";
+}
+.close::after{
+    content: " Close";
+}
+
+ 
+ 
+
+
+ /*main*/
+
+
+.content-box{
+    padding: 20px 20px;
+    border: 2px solid #2081a4;
+    border-radius: 10px;
+    font-family: 'Noto Serif', Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+}
+
+
+
+
+ 
+
+@media only screen and (min-width: 56em) {
+	nav ul {
+		max-width: 960px;
+        
+	}
+	
+    main{
+        
+        max-width: 960px;
+        
+    }
+    
+}
+      
+@media only screen and (min-width: 37em) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	nav ul li:first-child {
+		display: none;
+	}
+    nav ul {
+		max-width: 37em;
+        margin: 0 auto;
+	}
+	
+    main{
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 37em;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 1.9rem;
+    }
+    h2{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    header img{
+        width: 120px;
+    }
+    
+}
+
+footer{
+    margin-top: 25px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    background-color: #1A5070;
+    padding: 15px 0px;
+}
+
+/*footer*/
+
+.contact{
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    text-align: left;
+}
+.map{
+    
+    padding: 12px 0px 12px 30px;
+    max-width: 350px;
+    
+}
+.contact-information{
+    padding: 10px 0px;
+    grid-row: 1/2;
+    grid-column: 2 / 3;
+ }
+ .contact-information p:first-child{
+    font-size: 1.2rem;
+    
+ }
+ .contact-information p{
+    margin: 0; 
+    font-size: .9rem;
+ }
+ .sat-banner p{
+    font-size: 1.05rem; 
+}     
+
+footer{
+    margin-top: 25px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    background-color: #a5a8aa;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+}
